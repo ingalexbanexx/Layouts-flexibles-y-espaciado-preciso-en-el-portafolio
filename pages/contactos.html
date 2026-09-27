@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactos - Oficina Anticorrupción de Jujuy"
+    />
+    <title>Contactos | Oficina Anticorrupción de Jujuy</title>
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="brand">
+          <img
+            src="../images/logo.png"
+            width="90"
+            height="auto"
+            alt="Logo de la Oficina Anticorrupción de Jujuy"
+            class="logo"
+          />
+          <h1>Oficina Anticorrupción de Jujuy</h1>
+        </div>
+        <nav aria-label="Navegación principal">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./contactos.html">Quiénes Somos</a></li>
+            <li><a href="./marcos-legales.html">Marco Legal</a></li>
+            <li>
+              <a href="./prevencion-control.html"
+                >Prevención y Control Patrimonial</a
+              >
+            </li>
+            <li>
+              <a href="./investigacion-fiscalia.html"
+                >Investigación y Fiscalía</a
+              >
+            </li>
+            <li><a href="./contactos.html">Contactos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contactos</h2>
+        <p>
+          Utilice el siguiente formulario para realizar consultas específicas.
+          Para presentaciones o denuncias, deberá utilizar los canales
+          institucionales correspondientes.
+        </p>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div>
+              <h3>Información de contacto</h3>
+              <p>
+                <strong>Dirección:</strong> Independencia 577, San Salvador de
+                Jujuy, Jujuy, Argentina.
+              </p>
+              <p><strong>Teléfono:</strong> +54 388 422-9071</p>
+              <p>
+                <strong>Correo general:</strong>
+                oficinaanticorrupcion@jujuy.gob.ar
+              </p>
+            </div>
+            <div class="map-container">
+              <h3>¿Dónde estamos?</h3>
+              <iframe
+                src="https://www.google.com/maps?q=Oficina%20Anticorrupci%C3%B3n%20Jujuy%2C%20Independencia%20577%2C%20San%20Salvador%20de%20Jujuy&output=embed"
+                title="Mapa de ubicación de la Oficina Anticorrupción de Jujuy"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+              <label for="nombre">Nombre y apellido *</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                required
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Correo electrónico *</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input
+                type="tel"
+                id="telefono"
+                name="telefono"
+                autocomplete="tel"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="tema">Tema de consulta *</label>
+              <select id="tema" name="tema" required>
+                <option value="">Seleccione una opción</option>
+                <option value="general">Consulta general</option>
+                <option value="declaraciones-juradas">
+                  Declaraciones Juradas
+                </option>
+                <option value="prevencion">Prevención</option>
+                <option value="investigacion">Investigación</option>
+                <option value="institucional">Consulta institucional</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Consulta *</label>
+              <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+
+            <div>
+              <input type="submit" value="Enviar consulta" />
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- 
+      <section>
+        <h2>¿Dónde estamos?</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps?q=Oficina%20Anticorrupci%C3%B3n%20Jujuy%2C%20Independencia%20577%2C%20San%20Salvador%20de%20Jujuy&output=embed"
+            title="Mapa de ubicación de la Oficina Anticorrupción de Jujuy"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>  -->
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Oficina Anticorrupción de Jujuy. Todos los derechos
+        reservados.
+      </p>
+
+      <nav aria-label="Redes sociales">
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/anticorrupjujuy"
+              aria-label="Facebook"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/anticorrupjujuy"
+              aria-label="Instagram"
+              >Instagram</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
